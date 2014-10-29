@@ -8,7 +8,10 @@ public class Main {
         int num=1;
 
         for (int i=0;i<100;i++){
-            System.out.println(num);
+            if(num%2==0)
+                System.out.println(num*2);
+            else
+                System.out.println(num*3);
             num++;
         }
     }
