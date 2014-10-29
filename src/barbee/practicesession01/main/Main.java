@@ -5,14 +5,14 @@ package barbee.practicesession01.main;
  */
 public class Main {
     public static void main(String[] args){
-        int num=1;
+        int price=15940;
+        int cash=16000;
 
-        for (int i=0;i<100;i++){
-            if(num%2==0)
-                System.out.println(num*2);
-            else
-                System.out.println(num*3);
-            num++;
-        }
+        if(cash==price)
+            System.out.println("Have a nice day!");
+        else if (cash>price)
+            System.out.println("Here is your change: "+(cash-price));
+        else
+            System.out.println("It's not enough!");
     }
 }
