@@ -15,6 +15,6 @@ public class Main {
             if (price/10 < Math.floor(price/10)+0.3) price=((int)Math.floor(price/10)*10);
             else if (price/10 > Math.floor(price/10)+0.7) price=((int)Math.ceil(price / 10) * 10);
             else price=((int)Math.floor(price/10)*10+5);
-        System.out.println("Here is your change: "+((int)cash-(int)price));
+        System.out.println("Here is your change: "+((int)cash-(int)price)+" Ft");
     }
 }
